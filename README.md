@@ -84,3 +84,5 @@ The project is divided into two main components:
 - Users navigate to `/login` to access the login form.
 - Users navigate to `/user/signup` to access the signup form.
 - Upon form submission, data is sent to the backend for processing and storage.
+  ## Extra
+  upon successful login a token and refresh token is also generated usin jwt and stored in the local storage. The functions for this are there in Auth/handlers.go.
