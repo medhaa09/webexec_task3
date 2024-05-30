@@ -24,7 +24,7 @@ The project is divided into two main components:
 
 1. **Database Configuration**
    - Set up MongoDB and obtain connection URI.
-   - Update `store/store.go` with your MongoDB URI.
+   - Update `store/store.go` and .env file with your MongoDB URI.
 
 2. **Running the Server**
    - Install dependencies: 
